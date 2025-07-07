@@ -402,6 +402,10 @@ h1, h2, h3, h4, h5, h6, figure {
     height: inherit;
   }
 }
+#fh5co-counter .event-box,
+#fh5co-event .event-box {
+  display: flex;
+}
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(0, 0, 0, 0.5);
@@ -412,6 +416,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  height: 100%
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
